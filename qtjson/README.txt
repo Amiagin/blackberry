@@ -1,8 +1,13 @@
 Using QtJson
+Similar to gson and android's json. It's a bit easier to use.
 
+#include "JsObject.h"
+#include "JsArray.h"
 
-JsObject *jso = new JsObject();
-JsArray *jsa = new JsArray();
+using namespace QtJson;
+
+JsObject *jso = new JsObject(); 
+JsArray *jsa = new JsArray();   
 
 jsa->put("Apple");
 jsa->put("Orange");
